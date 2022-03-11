@@ -6,7 +6,8 @@ repo_url: https://github.com/Sindry-Manufacturing
 theme: readthedocs
 extra_css:
   - css/extra.css
-site_dir: site
+docs_dir: source
+site_dir: docs
 pages:
   - 'Introduction': 'index.md'
   - 'Project Brief': 'project-brief.md'
