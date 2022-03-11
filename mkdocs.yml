@@ -1,0 +1,14 @@
+site_name: OpenPyrojet
+site_description: Open source/hardware thermal spraying 3D printer
+site_author: OpenPyrojet
+#site_url:
+repo_url: https://github.com/Sindry-Manufacturing
+theme: readthedocs
+extra_css:
+  - css/extra.css
+site_dir: site
+pages:
+  - 'Introduction': 'index.md'
+  - 'Project Brief': 'project-brief.md'
+  - 'Roadmap': 'roadmap.md'
+  - 'Feedstock': 'feedstock.md'
