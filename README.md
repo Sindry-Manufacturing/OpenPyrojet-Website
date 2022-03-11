@@ -1,6 +1,6 @@
 # OpenPyrojet Website
 
-The OpenPyrojet website is made with [MkDocs](http://www.mkdocs.org) and the [Flatly](https://bootswatch.com/flatly/) theme.
+The OpenPyrojet website is made with [MkDocs](http://www.mkdocs.org).
 
 This repository hosts the source files for building it.
 
