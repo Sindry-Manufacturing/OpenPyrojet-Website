@@ -25,3 +25,18 @@ Trying out the current version locally:
 ```bash
 mkdocs serve
 ```
+
+# Publishing
+
+After verifying that the changes work with the `mkdocs serve` command, you can build and publish your changes:
+
+```bash
+mkdocs build
+git add docs/*
+git add source/*
+git commit -m "Description of changes"
+git push
+```
+
+Then wait a minute or two until GitHub updates the website.
+
