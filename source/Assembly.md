@@ -18,4 +18,4 @@ You will require a few basic hand tools, such a a hack saw and precision screw d
 Other heating element materials, such as grahite, kanthal, nicrhome, platinum, stainless steel, generally do not have high enough resistance to attain the thermal ramp speed required of the heating element, and/or lack the oxidation resistance, hot creep strength and high melting point (>3100 K ) required to survive repeated exposure to stoichiometric hydrocarbon combustion and molten metal particles..
 If you do find another material better suited and more widely available (some kind of oxygen resistant graphite? maybe tungsten carbide?) do not hesistate to make it known and use it!
 
-![description goes here](images/hotend-assembly-step1.jpg)
+![description goes here](images/assemblystep1.jpg)
