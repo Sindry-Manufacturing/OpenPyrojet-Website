@@ -20,7 +20,7 @@ Some resources on the above mentioned documents for those who need them, in addi
 
 The carbides, nitrides and oxides are generally quite benign and inert even as micron powders. I do not recommend eating them, but they are essentially sand paper grit / drill bit / sawblade reinforcements.  So they are quite safe in any quantity.
 Pure metals are the biggest real risk to handle and store in general.  of the pure metals, zirconium, aluminum, titanium are probably the most reactive and toxic to human health if we are not discussing alkalis. Like lithium, sodium, potassium. Unless you are planning on printing batteries(which you could) we have no business with alkalis generally, due to their toxicity and explosion hazard.
-Titanium, aluminum, and zirconium are all highly flammable even at relatively large particle sizes, oxidize exothermically in air, and can self ignite when simply sitting on a shelf. They are an explosion hazard and potential neurotoxins when aerosolized(which they do readily due to their low specific density among metals). So under no circumstances should you breath or ingest them! Chrome is poisonous if inhaled and a known carcinogen. So stay away from it is at all possible.
+Titanium, aluminum, and zirconium are all highly flammable even at relatively large particle sizes, oxidize exothermically in air, and can self ignite when simply sitting on a shelf. They are an explosion hazard and potential neurotoxins when aerosolized(which they do readily due to their low specific density among metals). So under no circumstances should you breath or ingest them! Chrome is poisonous if inhaled and a known carcinogen. So stay away from it if at all possible.
 
 Nickel, iron, copper, Zinc, molybdenum, tungsten, and their alloys are generally benign and easy to handle, as long as one does not create dust clouds out of them.
 
@@ -30,13 +30,13 @@ DO NOT mess with beryllium or beryllia containing compounds unless you have no o
 
 Mercury is probably not available, but if it is, do not mess with it. It and its fumes (easily produced when it boils in a flame) will make you insane and kill you painfully.
 
-Zirconium, titanium and aluminum can be worked with, BUT they require significant care in handling. And splitting kilograms into gram quantities is probably not a safe thing to do without proper dust handling gear, a good respirator(effective for your specific particle size!), gloves, goggles(full face mask if possible) a smock, apron or lab coat rated for flame resistance, with tightly woven pores to resist infiltration and a shop equipped to deal with flammable metal powders(fume extractors, dust filters cyclonic collectors, zero spark low heat motors,anti static work surfaces and tubing etc. Basically everything required for working with gunpowder, solid rocket fuels or other hazardous materials).
+Zirconium, titanium and aluminum can be worked with, BUT they require significant care in handling. And splitting kilograms into gram quantities is probably not a safe thing to do without proper dust handling gear, a good respirator(effective for your specific particle size!), gloves, goggles(full face mask if possible) a smock, apron or lab coat rated for flame resistance, with tightly woven pores to resist infiltration and a shop equipped to deal with flammable metal powders(fume extractors, dust filters cyclonic collectors, zero spark low heat motors, anti static work surfaces and tubing etc. Basically everything required for working with gunpowder, solid rocket fuels or other hazardous materials).
 
 In general, unless it is absolutely necessary we prefer to try to derive the more reactive metals from their oxide counterparts, because their oxides are relatively benign, and can be converted to their pure metals via a reducing flame chemistry in the print head. (a fuel rich combustion mixture of air and fuel)
 
 This simple change of approach can eliminate a lot of cost and trouble in dealing with explosive powders.
 
-Basically all super alloys are relatively inert and safe to handle. Inconel, zirconel, Stellite, hastealloy, monel, tribaloy, nichrome, kanthal, etc. Are all pretty benign and dense, so they do not aerosolize easily and have few biological effects besides typical metal fever from inhalation(dont breathe it!). Not fun, and not recommended but not particularly deadly or long lasting.
+Basically all super alloys are relatively inert and safe to handle. Inconel, zirconel, stellite, hastealloy, monel, tribaloy, nichrome, kanthal, etc. Are all pretty benign and dense, so they do not aerosolize easily and have few biological effects besides typical metal fever from inhalation(DO NOT breathe it!). Not fun, and not recommended but not particularly deadly or long lasting.
 
 The probable (at the time of writing) lowest cost and lowest risk pure metal feedstocks are Iron, nickel, copper, molybdenum, and tungsten. virtually any oxide or carbide is easy to acquire and safe to handle. Most plastics are safe as well to handle as powders though they still can pose a dust explosion hazard is aerosolized as most powders do. In short DO NOT AEROSOLIZE THE POWDERS OUTSIDE OF THE PRINT HEAD!
 
@@ -49,7 +49,7 @@ Viable fuels for pyrojet can be just about any combustible substance than can fl
 
 These fuels are COMBUSTIBLE, and FLAMMABLE, this means that they can EXPLODE and seriously injure or kill the unwary, unwitting or fool hardy who disrespect or misuse them. DO NOT UNDERSTIMATE THE DANGER OF THESE FUELS. It only takes a second for an accident to become a fuel air bomb, or a high explosive. DONT BECOME A STATISTIC BECAUSE YOU DID NOT READ AND FOLLOW APPROPRIATE SAFETY PRECAUTIONS.
 
-**MANY FUELS RELEASE NOXIOUS BYPRODUCTS like acrolein, acetylaldehyde, formaldehyde, nitrc acid, CO and CO2, WHEN COMBUSTED AND CONSUME OXYGEN, THIS MAKES THEM A HEALTH HAZARD WHEN BURNED IN A CLOSED SPACE AND CAN SUFFOCATE YOU BY CONSUMING ALL THE OXYGEN IN YOUR WORK SPACE!
+**MANY FUELS RELEASE NOXIOUS BYPRODUCTS like acrolein, acetylaldehyde, formaldehyde, nitric acid, CO and CO2, WHEN COMBUSTED AND CONSUME OXYGEN, THIS MAKES THEM A HEALTH HAZARD WHEN BURNED IN A CLOSED SPACE AND CAN SUFFOCATE YOU BY CONSUMING ALL THE OXYGEN IN YOUR WORK SPACE!
 ENSURE ADEQUTE VENTILATION AND KEEP A FIRE EXTINGUISHER FIRE BLANKETS AND KAOLITE HANDY. BE SURE TO KNOW YOUR ESCAPE ROUTES AND TAKE STOCK OF POTENTIAL CONSEQEUNCES IF THINGS GO BAD AND GET OUT OF HAND. WHILE WE HAVE TAKEN EVERY EFFORT TO ENSURE THE SAFETY OF THE OPERATOR IN THE DESIGN OF THE PRINTER THE GREATEST BARRIER TO DISASTER IS YOU AND YOUR PREPAREDNESS AND CONTINUAL OBSERVANCE OF ALL NECESSARY PRECAUTION WHEN OPERATING THE PYROJET DEVICE!**
 
 ## Further notes
