@@ -37,4 +37,4 @@ If you do find another material better suited and more widely available (some ki
 
 Cut out a piece of the 2.54mm pitch PCB. You could use a bandsaw, keyhole saw, jewelers saw, or other implements. There are many kinds of perfboard available. Square pads are less common but do exist, and help greatly in alignment in later steps.
 
-![PCB with hack saw](images/assemblystep01.jpg)
+![PCB with hack saw](images/assemblystep01.png)
