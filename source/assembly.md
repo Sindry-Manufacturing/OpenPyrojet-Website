@@ -135,3 +135,9 @@ The last step is to coat the edges of the print head chip in a two part epoxy or
 
 You are encouraged to invent your own packaging and connection schemes. If you want to save time and are willing to pay a small price for a more reliable product, panelized PCB based printhead designs are available on the github. Courtesy of Paul (Parkview785).
 https://github.com/Sindry-Manufacturing/OpenPyroJet-Electronics/tree/master/Gen3.1_Printhead
+Driver electronics and a controller board, (an experimenters board) also by Paul can be found here:
+https://github.com/Sindry-Manufacturing/OpenPyroJet-Electronics
+
+Adjoining firmware, UI and web-app interface can be found here, courtesy of Hayland.
+https://github.com/Sindry-Manufacturing/OpenPyrojet-Jetpack
+https://github.com/Sindry-Manufacturing/OpenPyrojet-Jetpack.js
