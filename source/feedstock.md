@@ -24,7 +24,7 @@ Titanium, aluminum, and zirconium are all highly flammable even at relatively la
 
 Nickel, iron, copper, Zinc, molybdenum, tungsten, and their alloys are generally benign and easy to handle, as long as one does not create dust clouds out of them.
 
-Anything containing silicon is relatively harmless, but can become an airborne silicate if it is very fine, which is essentially like inhaling asbestos. So try to stay away from silicon containing alloys. They have a lot of performance benefits for certain applications. and are really not that dangerous, since they tend to be heavy and difficult to aerosolize. But still. Best not to tango with them if you dont have to.
+Anything containing silicon is relatively harmless, but can become an airborne silicate if it is very fine, which is essentially like inhaling asbestos. So try to stay away from silicon containing alloys. They have a lot of performance benefits for certain applications. and are really not that dangerous, since they tend to be heavy and difficult to aerosolize. But still. Best not to tango with them if you do not have to.
 
 DO NOT mess with beryllium or beryllia containing compounds unless you have no other choices. They are quite poisonous and can cause berylliosis, which makes mesothelioma look like a joke.
 
