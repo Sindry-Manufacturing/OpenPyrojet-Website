@@ -134,8 +134,8 @@ The last step is to coat the edges of the print head chip in a two part epoxy or
 ![aligning the backplane to the nozzle plate](images/assemblystep31.png)
 
 Here are some short clips of the printhead actually firing, fueled by naptha(white gas/coleman gas) and about 23 watts of peak electrical pulse energy , @ 31 Volts, 0.75 A .
-![aligning the backplane to the nozzle plate](images/Closeup100XMagOfPyrojetFiring.gif)
-![aligning the backplane to the nozzle plate](images/ExteriorViewOfPyrojetFiring.gif)
+![aligning the backplane to the nozzle plate](images/closeupofpyrojetfiring.gif)
+![aligning the backplane to the nozzle plate](images/exteriorviewofpyrojetfiring.gif)
 
 You are encouraged to invent your own packaging and connection schemes. If you want to save time and are willing to pay a small price for a more reliable product, panelized PCB based printhead designs are available on the github. Courtesy of Paul (Parkview785).
 - https://github.com/Sindry-Manufacturing/OpenPyroJet-Electronics/tree/master/Gen3.1_Printhead
