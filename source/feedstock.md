@@ -1,6 +1,6 @@
 # Feedstock
 
-This document contains a list of suggested suppliers and materials for use with the OpenPyrojet print head as well as suggested pruchasing, handling and safety information around using the print head and associated fuels and materials.
+This document contains a list of suggested suppliers and materials for use with the OpenPyrojet print head as well as suggested purchasing, handling and safety information around using the print head and associated fuels and materials.
 
 ## Scope
 
