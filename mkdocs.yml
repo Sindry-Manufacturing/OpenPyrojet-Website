@@ -7,7 +7,7 @@ extra_css:
   - css/extra.css
 docs_dir: source
 site_dir: docs
-pages:
+nav:
   - 'Introduction': 'index.md'
   - 'Project Brief': 'project-brief.md'
   - 'Roadmap': 'roadmap.md'
