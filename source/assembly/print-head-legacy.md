@@ -1,6 +1,6 @@
 !!! Warning
 
-    This is an experimental hobby project. There is a risk of hurting yourself or damaging your property when trying to implement or replicate the hardware and software. Doing so is completely at your own risk. Take note of our safety guidelines, but don't consider them comprehensive or complete.
+    This is an experimental project. There is a risk of hurting yourself or damaging your property when trying to implement or replicate the hardware and software. Doing so is completely at your own risk. Take note of our safety guidelines, but don't consider them comprehensive or complete.
 
 # Getting Started
 This section is a visual guide to assembling a 48 DPI (~500 micron dot size) 8 nozzle pyrojetprint head, using nothing but off the shelf parts and basic hand tools.
