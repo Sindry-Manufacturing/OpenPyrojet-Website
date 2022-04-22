@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="OpenPyrojet">
+  <link rel="canonical" href="https://openpyrojet.com/assembly/print-head-gen3.1/">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Print Head gen 3.1 - OpenPyrojet</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Print Head gen 3.1";
+    var mkdocs_page_input_path = "assembly/print-head-gen3.1.md";
+    var mkdocs_page_url = "/assembly/print-head-gen3.1/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> OpenPyrojet</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Introduction</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../project-brief/">Project Brief</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../roadmap/">Roadmap</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../feedstock/">Feedstock</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Assembly</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Print Head gen 3.1</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../print-head-legacy/">Print Head legacy</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">OpenPyrojet</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Assembly &raquo;</li>
+        
+      
+    
+    <li>Print Head gen 3.1</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is an experimental hobby project. There is a risk of hurting yourself or damaging your property when trying to implement or replicate the hardware and software. Doing so is completely at your own risk. Take note of our safety guidelines, but don't consider them comprehensive or complete.</p>
+</div>
+<p>This page shows you how the <code>Gen 3.1</code> print head prototype was assembled. This is what the finished print head looks like:</p>
+<p><img alt="front view of assembled print head" src="../images/print-head-gen3.1/17-assembled-front.jpg" /></p>
+<p>To build a strong print head, multiple layers made from PCBs are used.
+These layers are stacked in the order as they are laid out below:</p>
+<p><img alt="all pcb parts" src="../images/print-head-gen3.1/01-pcb-overview.jpg" /></p>
+<p>First, the inlet and outlet are prepared. To connect Viton tubing to the print head, small copper pipes (<code>3 mm</code> diameter) are soldered to the PCB.
+The picture shows a larger copper pipe, because the wrong size was used when taking pictures:</p>
+<p><img alt="pcb with inlet, outlet and copper pipes" src="../images/print-head-gen3.1/02-inlet-outlet-prep.jpg" /></p>
+<p>Solder was applied to the pads first:</p>
+<p><img alt="inlet pad with some solder" src="../images/print-head-gen3.1/03-inlet-outlet-pre-solder.jpg" /></p>
+<p>Initially, the solder doesn't want to connect neatly all around the copper pipe. The picture below shows the result of that. Some extra solder was used and placed on such locations. Flux would've probably helped too.</p>
+<p><img alt="copper pipe with bad solder connection" src="../images/print-head-gen3.1/05-inlet-outlet-solder-bad-connection.jpg" /></p>
+<p>Smudges are another problem that might occur while soldering.
+It cleaned it off by wiping the (cleaned) soldering iron on it.
+It's not problematic if there is some solder on the side,
+but I have to make sure it's not sharp.
+That way, it won't cut the Viton tubing later on:</p>
+<p><img alt="solder smudged on copper pipe" src="../images/print-head-gen3.1/06-inlet-outlet-solder-smudges.jpg" /></p>
+<p>Finally, there is a neat collar on the copper pipe:</p>
+<p><img alt="copper pipe on pcb with solder" src="../images/print-head-gen3.1/04-inlet-outlet-solder-good.jpg" /></p>
+<p><img alt="finished inlet and oultet on pcb" src="../images/print-head-gen3.1/08-inlet-outlet-solder-finished.jpg" /></p>
+<p>The next step is to put the monofilament on one of the PCB layers. This monofilament
+is what heats up the fuel, which causes the fuel to eject through the nozzle.
+The filament gets sandwiched between the nozzle PCB and the PCB that holds the connector.
+The filament can be stored in a folded sheet of paper:</p>
+<p><img alt="monofilament displayed" src="../images/print-head-gen3.1/09-filament-prep.jpg" /></p>
+<p>The filament is cut to size. It's good to make it as wide as possible, so it's easier to control and so that we can tape it down on the sides.</p>
+<p><img alt="monofilament cut" src="../images/print-head-gen3.1/10-filament-cut.jpg" /></p>
+<p>Combining the PCBs is tricky, because the filament won't lay still on a flat surface.
+In the picture, glue is used to keep the filament in place. In the future, a piece of tape (e.g. Kapton tape) will be a better alternative.</p>
+<p><img alt="monofilament glued to PCB" src="../images/print-head-gen3.1/11-filament-glued.jpg" /></p>
+<p>The nozzle PCB layer had holes that were too small in diameter. They were widened them
+by hand with some cheap drills, slowly increasing the diameter <code>0.1 mm</code> at a time:</p>
+<p><img alt="nozzle PCB with drill in it" src="../images/print-head-gen3.1/12-nozzle-prep.jpg" /></p>
+<p>A single row of screws combine the two PCB layers. They are not tightened yet:</p>
+<p><img alt="nozzle PCB on connector PCB with a single row of screws" src="../images/print-head-gen3.1/13-nozzle-initial-screws.jpg" /></p>
+<p>Tightening is done carefully and as evenly as possible. When everything stops sliding
+around, resistance measurements are done before continueing to tighten further.
+The resistance measurements are repeated until the values are in an acceptable range.</p>
+<p><img alt="nozzle PCB on connector PCB with all screws" src="../images/print-head-gen3.1/14-nozzle-all-screws.jpg" /></p>
+<p>The nozzle plate should be placed straigth, unlike in the picture below. In the future, a 3D printable guide will be developed to combine the 2 PCBs with proper alignment.</p>
+<p><img alt="nozzle PCB badly aligned with connector PCB" src="../images/print-head-gen3.1/15-nozzle-bad-alignment.jpg" /></p>
+<p>The prepared PCBs are ready to be combined. I took 8 pieces of <code>M2 x 10mm</code> and
+some <code>M2</code> nuts to match. Medium-strength loctite was also used:</p>
+<p><img alt="all layers finished, displayed with M2 hardware and loctite" src="../images/print-head-gen3.1/16-all-layers-ready.jpg" /></p>
+<p>At this point, I have a finished physical assembly:</p>
+<p><img alt="front view of assembled print head" src="../images/print-head-gen3.1/17-assembled-front.jpg" /></p>
+<p><img alt="back view of assembled print head" src="../images/print-head-gen3.1/18-assembled-back.jpg" /></p>
+<p><img alt="side view of assembled print head" src="../images/print-head-gen3.1/19-assembled-side.jpg" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../print-head-legacy/" class="btn btn-neutral float-right" title="Print Head legacy">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../feedstock/" class="btn btn-neutral" title="Feedstock"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../feedstock/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../print-head-legacy/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

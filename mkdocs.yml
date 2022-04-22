@@ -5,6 +5,8 @@ site_url: https://openpyrojet.com
 theme: readthedocs
 extra_css:
   - css/extra.css
+markdown_extensions:
+  - admonition
 docs_dir: source
 site_dir: docs
 nav:
@@ -12,4 +14,6 @@ nav:
   - 'Project Brief': 'project-brief.md'
   - 'Roadmap': 'roadmap.md'
   - 'Feedstock': 'feedstock.md'
-  - 'Assembly': 'assembly.md'
+  - 'Assembly' :
+    - 'Print Head gen 3.1': 'assembly/print-head-gen3.1.md'
+    - 'Print Head legacy': 'assembly/print-head-legacy.md'
