@@ -2,32 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://openpyrojet.com/</loc>
-         <lastmod>2022-04-22</lastmod>
+         <lastmod>2022-07-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openpyrojet.com/feedstock/</loc>
-         <lastmod>2022-04-22</lastmod>
+         <lastmod>2022-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openpyrojet.com/getinvolved/</loc>
+         <lastmod>2022-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openpyrojet.com/history/</loc>
+         <lastmod>2022-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openpyrojet.com/howtocontribute/</loc>
+         <lastmod>2022-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openpyrojet.com/philosophy/</loc>
+         <lastmod>2022-07-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openpyrojet.com/project-brief/</loc>
-         <lastmod>2022-04-22</lastmod>
+         <lastmod>2022-07-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openpyrojet.com/roadmap/</loc>
-         <lastmod>2022-04-22</lastmod>
+         <lastmod>2022-07-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openpyrojet.com/assembly/print-head-gen3.1/</loc>
-         <lastmod>2022-04-22</lastmod>
+         <lastmod>2022-07-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openpyrojet.com/assembly/print-head-legacy/</loc>
-         <lastmod>2022-04-22</lastmod>
+         <lastmod>2022-07-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

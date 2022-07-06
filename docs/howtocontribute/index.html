@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="OpenPyrojet" /><link rel="canonical" href="https://openpyrojet.com/roadmap/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="OpenPyrojet" /><link rel="canonical" href="https://openpyrojet.com/howtocontribute/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Roadmap - OpenPyrojet</title>
+    <title>How to Contribute to the Project - OpenPyrojet</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
@@ -13,9 +13,9 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Roadmap";
-        var mkdocs_page_input_path = "roadmap.md";
-        var mkdocs_page_url = "/roadmap/";
+        var mkdocs_page_name = "How to Contribute to the Project";
+        var mkdocs_page_input_path = "howtocontribute.md";
+        var mkdocs_page_url = "/howtocontribute/";
       </script>
     
     <script src="../js/jquery-3.6.0.min.js" defer></script>
@@ -49,10 +49,8 @@
                 <li class="toctree-l1"><a class="reference internal" href="../project-brief/">Project Brief</a>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Roadmap</a>
-    <ul class="current">
-    </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../roadmap/">Roadmap</a>
                 </li>
               </ul>
               <ul>
@@ -63,8 +61,10 @@
                 <li class="toctree-l1"><a class="reference internal" href="../getinvolved/">Get Involved</a>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../howtocontribute/">How to Contribute to the Project</a>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">How to Contribute to the Project</a>
+    <ul class="current">
+    </ul>
                 </li>
               </ul>
               <ul>
@@ -95,7 +95,7 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Roadmap</li>
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>How to Contribute to the Project</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -105,22 +105,29 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="roadmap-and-vision">Roadmap and vision</h1>
-<p>The ultimate goal is to create the first generation of universal fabricator.
-We believe we can achieve this eventually by breaking this up into smaller goals:</p>
+                <h1 id="so-you-want-to-help-us-build-pyrojet">So you want to help us build Pyrojet?</h1>
+<p>Check out how to get involved on the "Get Involved" Page.
+Build your own Open Pyrojet printhead from the assembly guides on this website, and slap it on a printer of your choice. Working out how to integrate with as many printers as possible is helpful.
+If you do not want to get into the technical nitty-gritty, there is always the option to buy the devs a coffee/tea/brew, or make a donation to the project. Every little bit helps. :)</p>
+<p>If you would like to contribute in a technical sense, many outstanding tasks remain between now and a fully operational pyrojet printer... A few are listed below for your consideration... We would love to hear about your ideas and prototypes in the discord, and on the Github.</p>
+<h1 id="things-to-do">Things To Do</h1>
 <ol>
-<li>Create a prototype <a href="https://en.wikipedia.org/wiki/Detonation_spraying">detonation spraying</a> hotend (achieved)</li>
-<li>Reliably spraying metallic particles on a substrate  (work in progress)</li>
-<li>Creating a solid layer of a metallic material on a substrate. The end product that proves this goal is a single layer PCB.</li>
-<li>Creating multi-material objects. We hope to print simple semi-conductors as proof that we reached this goal.</li>
-<li>TBD</li>
+<li>Find workable metal particle + fuel/oxidizer mixture that does not gum/clog, and burns cleanly while perhaps providing some print head life extending properties(film formation).</li>
+<li>Work out a recirculating pump system that keeps the particles and fuel mixed thoroughly, allows for control of fuel levels in the print head nozzles, and is compatible with the materials feed stocks.</li>
+<li>Devise a reliable electronic control board that allows for quickly tunable, consistent and repeatable firing timing, and current feedback monitoring from each nozzle heater.</li>
+<li>Develop software that provides a clean, easy to use, extensible and efficient web interface, as well as easy to use software defined feedback control of the printing process.</li>
+<li>Build a detailed 3D multiphysics model of the combustion, mechanical and thermal stresses, electrical behavior, and pressure/temperature huiginot within the combustion chambers of the print head. If possible, a complete predictive physics model for generatively designing print parameters to attain specific print quality based on closed loop feedback data accrued at the print head heating elements would be of great importance.</li>
+<li>Develop the equivalent of pressure advance, look ahead and other speed and quality enhancing features for Pyrojet</li>
+<li>Develop AI integration, and a variety of user friendly quality of life features and interfaces that will make use of the printer, from design of a part, to the tuning of parameters and generation of the final printed object as easy and user friendly, while still being open, and freedom respecting as possible.</li>
+<li>Find a way to replace(or locally produce) the silicon carbide filament, as it is somewhat difficult to source and represents a long term limitation of the breadth of propagation of this printing technology. It is also a kludge of design, making up for lack of access to proper thin film fabrication facilities(a common problem).</li>
+<li>Find environmentally friendly and highly sustainable feed stocks, or methods of synthesizing our own in large enough or local enough quantities.</li>
 </ol>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../project-brief/" class="btn btn-neutral float-left" title="Project Brief"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../feedstock/" class="btn btn-neutral float-right" title="Feedstock">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../getinvolved/" class="btn btn-neutral float-left" title="Get Involved"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../history/" class="btn btn-neutral float-right" title="The History of Pyrojet So Far">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -143,10 +150,10 @@ We believe we can achieve this eventually by breaking this up into smaller goals
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../project-brief/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../getinvolved/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../feedstock/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../history/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

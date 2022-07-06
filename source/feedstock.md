@@ -2,6 +2,13 @@
 
 This document contains a list of suggested suppliers and materials for use with the OpenPyrojet print head as well as suggested purchasing, handling and safety information around using the print head and associated fuels and materials.
 
+## The Heating Elements Themselves
+[US Suppliers of Silicon Carbide Monofilament](https://www.specmaterials.com/silicon-carbide-fiber-1)  
+
+[Globally Accessible Supplier](https://www.goodfellow.co.kr/en/product/silicon-carbide-monofilament-SI675920.htm)
+
+You can also request a length of monofilament from the US supplier, from Michael (Unit-005) via the discord any time. I keep a few rolls on hand to ensure a continuing supply for various projects.  
+
 ## Scope
 
 You should have a basic understanding of what an SDS(Safety Data Sheet) and MSDS(Material Safety Data Sheet) is, and how to read and make sense of them in regards to handling, storing and preparing the various chemicals and materials used in the open pyrojet printhead before reading this document.
@@ -54,8 +61,9 @@ ENSURE ADEQUTE VENTILATION AND KEEP A FIRE EXTINGUISHER FIRE BLANKETS AND KAOLIT
 
 ## Further notes
 
-Our preferred feedstock materials are spherical particles between 1 and 50 microns in diameter. smaller an larger sizes will work to a point, but have a variety of complications around their tendency to settle and clog (for big particles) or to aggregate and clog (for very small particles). Or preferred fuel is either, Ethanol, methanol, naptha(white gas/coleman fuel), or common low octane unleaded gasoline.
-The reason we like white gas and ethanol best, is thanks to their high energy density, relatively benign combustion products, and fast, clean burning behavior.  White gas is easier to ignite and burns hotter, and is easy to store and transport. Ethanol is common and very clean burning, though it has about half the energy density of white gas. So it will make for slower prints for most materials.
+Our preferred feedstock materials are spherical particles between 1 and 50 microns in diameter. smaller and larger sizes will work to a point, but have a variety of complications around their tendency to settle and clog (for big particles) or to aggregate and clog (for very small particles). Our preferred fuel is either, Ethanol, methanol, naptha(white gas/coleman fuel), or common low octane unleaded gasoline. Additionally, the use of solutions of [metal salts](https://en.wikipedia.org/wiki/Salt_(chemistry) such as chlorides or sulphates in these fuels can be used to eliminate the need for metal powders if one is inclined to a more chemical solution and is having trouble with clogging and other issues witch plague pigment approaches. Metal salts allow for deposition of very thin films to very thick films with a great deal of variety in their structure and qualities depending on the specific deposition conditions and solution chemistry. This is still an active area of research.  
+
+The reason we like white gas and ethanol best, is thanks to their high energy density, relatively benign combustion products, and fast, clean burning behavior.  White gas is easier to ignite and burns hotter, and is easy to store and transport. Ethanol is common and very clean burning, though it has about half the energy density of white gas. So it will make for slower prints for most materials. Methanol/ethanol requires less oxygen for complete combuston however, and when mixed with an oxidizer such as nitromethane can approach the volumetric energy density of white gas, while producing much less coking(carbon soot) while being much less reactive with many metals. This aspect of Pyrojet still needs a lot of work and we need a lot of help! :)
 
 ## Suppliers
 
